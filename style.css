@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 7vh;
+    font-family: 'Doppio One';
+    text-align: center;
+    color: #0366fc;
+}
+
+#container {
+    margin: 3vh auto 0 auto;
+    border: none;
+    background-color: #0366fc;
+    width: 38vw;
+    height: 37vh;
+    padding: 2vh;
+}
+
+#custom_password {
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    background-color: #5494f3;
+    height: 10vh;
+    width: 35vw;
+    text-align: center;
+    font-family: 'Doppio One';
+    font-size: 3vh;
+    padding: 2.5vh;
+}
+
+#generate_button {
+    border: none;
+    border-radius: 2vw;
+    background-color: #aeb0b3;
+    text-align: center;
+    font-size: 2.7vh;
+    width: 15vw;
+    margin: 2.5vh auto 0 auto;
+    padding: 1vh;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Doppio One';
+}
+
+#password_length {
+    width: 10.14vw;
+    border: 0.3vh solid #5494f3;
+    background-color: #5494f3;
+    margin: 1vh auto 0 auto;
+}
+
+#input_box {
+    width: 9.9vw;
+    height: 3vh;
+    background-color: #5494f3;
+    border: 0.3vh solid #5494f3;
+    font-family: 'Doppio One';
+}
+
+#pw_label_div {
+    text-align: center;
+    margin-top: 1vh;
+    font-family: 'Doppio One';
+}
